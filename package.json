@@ -1,0 +1,1 @@
+{\n  "name": "codebike",\n  "version": "1.0.0",\n  "description": "Progressive Web App for teaching kids French road rules and cycling safety",\n  "scripts": {\n    "serve": "python3 -m http.server 8080",\n    "build": "echo 'Static PWA - no build needed'"\n  },\n  "license": "MIT"\n}
