@@ -1,0 +1,9 @@
+{
+  "name": "VéloCode Kids",
+  "short_name": "VéloCode",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f8fb",
+  "theme_color": "#1f7aec",
+  "icons": []
+}
