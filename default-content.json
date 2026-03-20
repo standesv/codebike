@@ -1,4 +1,4 @@
-window.DEFAULT_CONTENT = {
+{
   "appVersion": "2.0.0",
   "categories": [
     {
@@ -3881,4 +3881,4 @@ window.DEFAULT_CONTENT = {
       ]
     }
   ]
-};
+}

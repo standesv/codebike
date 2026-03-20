@@ -1,24 +1,31 @@
-# VéloCode Kids V1
+# VéloCode Kids V2
 
-PWA statique pour apprendre les bases du code de la route à vélo pour les enfants.
+PWA statique prête à être déposée sur GitHub Pages.
 
-## Contenu
-- `index.html` : point d'entrée
-- `styles.css` : styles
-- `data.js` : contenu par défaut (questions, missions, badges)
-- `storage.js` : persistance localStorage
-- `game-engine.js` : logique XP / badges / niveaux
-- `app.js` : écrans et navigation
-- `service-worker.js` : mode offline basique
+## Contenu livré
+- 120 questions illustrées
+- 10 missions
+- 32 illustrations SVG embarquées
+- administration locale : ajout, édition, suppression
+- import JSON
+- import de médias avec rattachement automatique via convention de nommage (`Q001_main.png`)
+- validation automatique : questions incomplètes, médias manquants, doublons, incohérences de structure
 
-## Lancer localement
+## Lancer en local
 ```bash
 python3 -m http.server 8080
 ```
 Puis ouvrir `http://localhost:8080`.
 
-## Déployer sur GitHub Pages
-Dépose les fichiers à la racine du dépôt, puis active GitHub Pages sur la branche principale (`/root`).
+## Déploiement GitHub Pages
+Dépose tout le contenu du dossier à la racine du dépôt puis active **Settings > Pages > Deploy from a branch** sur la branche `main`.
 
-## Administration
-Le bouton **Admin** permet d’exporter/importer le contenu JSON et de le modifier sans toucher au code.
+## Format d'import
+- JSON structuré avec tableau `questions`
+- Images optionnelles importables séparément ; le système rattache automatiquement un fichier nommé `Q123_main.png` à la question `Q123`
+
+## Remarque
+Cette V2 reste une application statique. Pour une V3 plus industrielle, le bon chemin est :
+- base Supabase
+- back-office Directus
+- front PWA / Flutter branchés sur la même API

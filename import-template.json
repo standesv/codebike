@@ -1,0 +1,45 @@
+{
+  "questions": [
+    {
+      "id": "Q999",
+      "title": "Titre",
+      "prompt": "Intitulé de la question",
+      "type": "single",
+      "options": [
+        "Réponse 1",
+        "Réponse 2",
+        "Réponse 3"
+      ],
+      "correctAnswers": [
+        0
+      ],
+      "explanation": "Explication pédagogique",
+      "category": "signalisation",
+      "level": 1,
+      "tags": [
+        "stop",
+        "panneaux"
+      ],
+      "ageRange": "6-11",
+      "media": [
+        {
+          "id": "Q999-1",
+          "role": "main",
+          "src": "Q999_main.png",
+          "alt": "visuel principal"
+        }
+      ],
+      "status": "draft"
+    }
+  ],
+  "missions": [
+    {
+      "id": "m999",
+      "title": "Nouvelle mission",
+      "description": "Description",
+      "questionIds": [
+        "Q999"
+      ]
+    }
+  ]
+}

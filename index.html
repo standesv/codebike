@@ -3,21 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VéloCode Kids</title>
+  <title>VéloCode Kids — V2</title>
+  <meta name="theme-color" content="#1f7aec" />
   <link rel="manifest" href="manifest.json" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="topbar">
-    <h1>🚲 VéloCode Kids</h1>
-    <div class="top-actions">
+    <div>
+      <h1>🚲 VéloCode Kids</h1>
+      <p class="tagline">Code de la route à vélo pour enfants — base administrable + import de médias</p>
+    </div>
+    <nav class="top-actions">
       <button id="nav-home">Accueil</button>
       <button id="nav-profile">Profil</button>
       <button id="nav-admin">Admin</button>
-    </div>
+    </nav>
   </header>
 
-  <main id="app"></main>
+  <main id="app" aria-live="polite"></main>
 
   <script src="data.js"></script>
   <script src="storage.js"></script>
