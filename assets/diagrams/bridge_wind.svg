@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+    <rect width="100%" height="100%" fill="#eef6ff"/>
+    <text x="70" y="55" font-family="Arial,Helvetica,sans-serif" font-size="32" text-anchor="start" fill="#17324d" font-weight="700">Pont et vent</text>
+    <rect x="0" y="260" width="800" height="120" fill="#5f6b78"/>
+    <line x1="0" y1="320.0" x2="800" y2="320.0" stroke="#fff3a1" stroke-width="8" stroke-dasharray="30 18"/>
+    
+    <circle cx="170" cy="320" r="24" fill="none" stroke="#1f7aec" stroke-width="6"/>
+    <circle cx="242" cy="320" r="24" fill="none" stroke="#1f7aec" stroke-width="6"/>
+    <line x1="170" y1="320" x2="204" y2="286" stroke="#1f7aec" stroke-width="6"/>
+    <line x1="204" y1="286" x2="224" y2="320" stroke="#1f7aec" stroke-width="6"/>
+    <line x1="224" y1="320" x2="170" y2="320" stroke="#1f7aec" stroke-width="6"/>
+    <line x1="204" y1="286" x2="242" y2="320" stroke="#1f7aec" stroke-width="6"/>
+    <line x1="204" y1="286" x2="198" y2="268" stroke="#1f7aec" stroke-width="6"/>
+    <line x1="204" y1="286" x2="228" y2="270" stroke="#1f7aec" stroke-width="6"/>
+    <circle cx="204" cy="246" r="14" fill="#ffcf8b" stroke="#17324d" stroke-width="3"/>
+    <line x1="204" y1="260" x2="204" y2="286" stroke="#17324d" stroke-width="5"/>
+    <line x1="204" y1="270" x2="180" y2="296" stroke="#17324d" stroke-width="5"/>
+    <line x1="204" y1="270" x2="228" y2="296" stroke="#17324d" stroke-width="5"/>
+    <path d="M540 120 C470 100 470 170 540 150" stroke="#1f7aec" stroke-width="6" fill="none"/><path d="M600 140 C530 120 530 190 600 170" stroke="#1f7aec" stroke-width="6" fill="none"/><text x="520" y="240" font-family="Arial,Helvetica,sans-serif" font-size="24" text-anchor="start" fill="#1f7aec" font-weight="700">Je tiens bien ma trajectoire</text>
+    </svg>
